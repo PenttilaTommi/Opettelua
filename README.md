@@ -21,7 +21,7 @@ Listoja voit tehdä näin: Eli tahdellä *
   
 Numeroitu lista:
 1. Eka juttu
-1. Toka juttu
+2. Toka juttu
 1. Kolmas juttu
    1. Kolmannen eka juttu <!--Kolme tabia sisennetty-->
    1. Kolmannen toka juttu
