@@ -1,6 +1,6 @@
 # Ilmiöt
 # Alan toimintaympäristöt ja ilmiöt
-Tekstiä voi kirjoittaa vaikka **lihavoituna**, *kursivoituna* tai ~~yliviivattuna~~. 
+Tekstiä voi kirjoittaa vaikka **lihavoituna**, *kursivoituna* tai ~~yliviivattuna~~~   
 
 Rivinvaihto tehdään kahdella välilyönnillä. 
 
