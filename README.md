@@ -27,7 +27,7 @@ Numeroitu lista:
    1. Kolmannen toka juttu
    
 Readme.md -tiedostoon voi laittaa myös kuvia.
-![Hyvinvointiteknologia] (lakki.jpg)
+![Hyvinvointiteknologia](lakki.jpg)
 
 
 Linkitkin toimii:
