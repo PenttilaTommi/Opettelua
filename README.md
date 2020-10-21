@@ -51,3 +51,57 @@ ABC | 123
 XYZ | 456  
 
 Voit myös kokeilla erilaisia emojeja :nerd_face: googlaa GitHub README.md emoji.   
+
+
+
+# Sääaasema
+## vaatimusmäärittely
+### sovelluksen tarkoitus
+* mitataan ympäristön lampötila -ja ilmankosteustietoja
+* saatuja tietoja voidaan tarkastella tekstinä ja grafiikkana web sovelluksella
+
+### käyttäjät
+Web sovellus on tarkoitettu julkiseen käyttöön.
+
+### käyttöliittymä
+käyttöliittymä koostuu kahdesta näkymästä:
+1. tekstimuotoisen datan selaamiseen tarkoitettu näkymä
+1: grafiikkamuotoisen datan selaamiseen tarkoitettu näkymä
+
+### jatkokehitysideoita
+Säätietojen selaaminen valitulla aikavälillä.
+
+## Arkkitehtuurikuvaus
+
+### Luokkakaavio
+
+
+
+### Sekvenssikaavio
+
+## Työaikakirjanpito
+
+päivä | aika | tehtävät
+-----------|--------|-----
+10.11 | 2h | Projektin suunnittelu
+24.11 | 3h | Laitteiston asennus
+25.11 | 2h| Ohjelmointi
+01.12 | 5h | Testaaminen ja dokumentointi
+08.12 | 9h | Käyttökoulutus
+Yht | 28 | 
+
+##  Käyttöohje
+
+### Järjestelmän konfigurointi
+Lataa node_modules
+
+````
+ npm install 
+
+````
+Käynnistä projekti paikallisesti portiin 3000
+
+````
+ npm start
+
+````
