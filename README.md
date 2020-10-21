@@ -50,4 +50,4 @@ Taulukon sarakkeen otsikko | Seuraavan sarakkeen otsikko
 ABC | 123
 XYZ | 456  
 
-Voit myös kokeilla erilaisia emojeja :nerd_face: googlaa GitHub README.md emoji. 
+Voit myös kokeilla erilaisia emojeja :nerd_face: googlaa GitHub README.md emoji.  
