@@ -107,7 +107,7 @@ Käynnistä projekti paikallisesti portiin 3000
 ````
 
 
-
+````
 
 //asetetaan oikeat pinnit
 
@@ -137,3 +137,4 @@ void loop()
   delay (1000);
 
   }
+````
