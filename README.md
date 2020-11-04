@@ -186,3 +186,56 @@ int ledToggle(String command)
 }
 
 ````
+##TähänSittenJoskusSeHtmlKoodiKunhanSaanSenToimimaan
+
+
+##valosensorinkoodi
+
+````
+
+int led = D6;
+
+int photosensor = A0;
+
+int analogvalue;
+
+int ledToggle(String command);
+
+void setup() {
+
+    Serial.begin();
+    
+    pinMode(led, OUTPUT);
+    digitalWrite(led, HIGH);
+    
+    Particle.variable("analogvalue", &analogvalue, INT);
+    
+    Particle.function("led", ledToggle);
+}
+
+void loop() {
+    
+    analogvalue = analogRead(photosensor);
+    
+    Serial.printlnf("%d", analogvalue);
+    
+    delay(100);
+
+}
+
+int ledToggle(String command) {
+    if (command=="on"){
+        digitalWrite(led,HIGH);
+        return 1;
+    }
+    else if(command=="off") {
+        digitalWrite(led,LOW);
+        return 0;
+    }
+    else {
+        return -1;
+    }
+}
+
+
+````
