@@ -105,7 +105,7 @@ Käynnistä projekti paikallisesti portiin 3000
  npm start
 
 ````
-
+##Ledin vilkutuksen koodi
 
 ````
 
@@ -137,4 +137,52 @@ void loop()
   delay (1000);
 
   }
+````
+
+##Ledin vilkutusta webin yli
+
+````
+
+
+int led1 = D6;
+int led2 = D7;
+
+
+
+void setup() 
+{
+    pinMode (led1, OUTPUT);
+    pinMode (led2, OUTPUT);
+    
+    Particle.function ("led",ledToggle);
+    
+    digitalWrite (led1, LOW);
+    digitalWrite (led2, LOW);
+    
+}
+
+void loop()
+{
+    //mitähän varten tämä looppi kirjoitetaan tänne vaikkei sille anneta mitään komentoa?
+
+}
+
+int ledToggle(String command)
+{
+    if (command=="on"){
+        digitalWrite(led1,HIGH);
+        digitalWrite(led2,HIGH);
+        return 1;
+    }
+    else if (command=="off") {
+       digitalWrite(led1,LOW);
+       digitalWrite(led2,LOW);
+        return 0;    
+    }
+    
+    else {
+        return -1;
+    }
+}
+
 ````
