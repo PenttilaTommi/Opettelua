@@ -105,3 +105,35 @@ Käynnistä projekti paikallisesti portiin 3000
  npm start
 
 ````
+
+
+
+
+//asetetaan oikeat pinnit
+
+int led1 = D6;
+int led2 = D7;
+
+//kerrotaan pinneille että tarkoitus syöttää virtaa niihin.
+
+void setup()
+  {
+  pinMode(led1, OUTPUT);
+  pinMode(led2, OUTPUT);
+
+  }
+
+//ja loopilla päättymättömästi toistaa virransyöttöä 1000 millisekunnin tauoilla.
+void loop() 
+  {
+  digitalWrite (led1, HIGH);
+  digitalWrite (led2, HIGH);
+
+  delay(1000);
+
+  digitalWrite (led1, LOW);
+  digitalWrite (led1, LOW);
+
+  delay (1000);
+
+  }
