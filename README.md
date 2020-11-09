@@ -97,7 +97,7 @@ Yht | 31 |
 
 ### Vaihe 1, Ledin kytkentä
 
-https://github.com/PenttilaTommi/Opettelua/blob/main/SieppausLED.JPG(SieppausLED.jpg)
+(SieppausLED.jpg)
 
 ### Vaihe 2, Ledin vilkuttaminen
 
