@@ -110,7 +110,7 @@ Yht | 31 |
 
 ![main](SieppauLedVilkutus.JPG)
 
-![main](SCVilkutus.JPG)
+![main](SCVilkku.JPG)
 
 
 
