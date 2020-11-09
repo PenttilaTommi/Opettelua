@@ -99,7 +99,7 @@ Yht | 31 |
 
 //mitenkähän ne valokuvat lisätiin tänne...?
 
-(SieppausLED.JPG)
+https://github.com/PenttilaTommi/Opettelua/blob/955c8c848f55d2f441a7450f322a8eb5014eee80/SieppauLedVilkutus.JPG?raw=true
 
 
 ### Vaihe 2, Ledin vilkuttaminen
