@@ -88,7 +88,20 @@ päivä | aika | tehtävät
 25.11 | 2h| Ohjelmointi
 01.12 | 5h | Testaaminen ja dokumentointi
 08.12 | 9h | Käyttökoulutus
-Yht | 28 | 
+04.11 | 1h | Ledin kytkentä, Ledin vilkuttaminen
+3.11 | 1h | Ledin kontrollointi selainpohjaisella järjestelmällä
+3.11 | 1h | Valoisuuden mittaaminen photosensorilla
+Yht | 31 | 
+
+##työvaiheet
+
+###Vaihe 1, Ledin kytkentä
+
+###Vaihe 2, Ledin vilkuttaminen
+
+###Vaihe 3, Ledin kontrollointi selainpohjaisella järjesetelmällä
+
+### Vaihe 4, Valoisuuden mittaaminen phototransistorilla
 
 ##  Käyttöohje
 
