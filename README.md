@@ -29,7 +29,7 @@ Numeroitu lista:
 Readme.md -tiedostoon voi laittaa myös kuvia.
 ![Hyvinvointiteknologia](Lakki.jpg) 
 
-![main] (SieppausLED.JPG)
+![main](SieppausLED.JPG)
 
 
 Linkitkin toimii:
