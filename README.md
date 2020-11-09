@@ -32,7 +32,7 @@ Readme.md -tiedostoon voi laittaa myös kuvia.
 
 Linkitkin toimii:
 http://google.com (automaattisesti)  
-[Google](http://google.com)
+[Google](http://google.com) 
 
 Näinkin voi tehdä
 > Kirjoitetaan tähän tekstiä  
