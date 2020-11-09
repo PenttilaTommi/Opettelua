@@ -93,13 +93,13 @@ päivä | aika | tehtävät
 3.11 | 1h | Valoisuuden mittaaminen photosensorilla
 Yht | 31 | 
 
-##työvaiheet
+## työvaiheet
 
-###Vaihe 1, Ledin kytkentä
+### Vaihe 1, Ledin kytkentä
 
-###Vaihe 2, Ledin vilkuttaminen
+### Vaihe 2, Ledin vilkuttaminen
 
-###Vaihe 3, Ledin kontrollointi selainpohjaisella järjesetelmällä
+### Vaihe 3, Ledin kontrollointi selainpohjaisella järjesetelmällä
 
 ### Vaihe 4, Valoisuuden mittaaminen phototransistorilla
 
