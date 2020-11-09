@@ -184,33 +184,31 @@ int ledToggle(String command)
 
 ````
 
-
 <html>
   <head>
-   <meta charset=”UFT-8” />
-   </head>
-   <body>
+   <meta charset="UFT-8" />
+ </head>
+<body>
    <center>
     <br />
     <br />
-    <br />
-    <form action=”https://api.particle.io/v1/devices/250034001447393035313136/led?access_token=396839ecf5da9b552ded2b5bef61c43a8be68f93”
-	 method=”POST”> LED:n kontrollointi web-käyttöliittymällä
-	<br />
-	<br />
-	
-	<input name="arg" type="radio" value="on" />
-	Sytytä LED.
-	<br />
-	<input name="arg" type="radio" value="off" />
-	Sammuta LED.
-	<br />
-	<br />
-	<input type= "submit"  value="valmis" />
-	</form>
-      </center>
-    </body>
+      <br />
+   <form action="https://api.particle.io/v1/devices/250034001447393035313136/led?access_token=396839ecf5da9b552ded2b5bef61c43a8be68f93" method="post"> LED:n kontrollointi web-käyttöliittymällä
+<br />
+<br />
+<input name="arg" type="radio" value="0n" />
+Sytytä LED.
+<br />
+<input name="arg" type="radio" value="off" />
+Sammuta LED:
+<br />
+<br />
+<input type="submit"  value="valmis" />
+</form>
+</center>
+</body>
 </html>
+
 
 
 
