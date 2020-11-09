@@ -230,7 +230,7 @@ Sammuta LED:
 
 ### Vaihe 4, Valoisuuden mittaaminen phototransistorilla
 
-![main](SieppausValoanturi.jpg)
+![main](SieppausValoanturi.JPG)
 
 
 
