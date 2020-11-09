@@ -97,6 +97,9 @@ Yht | 31 |
 
 ### Vaihe 1, Ledin kytkentä
 
+
+### Vaihe 2, Ledin vilkuttaminen
+
 ````
 
 //asetetaan oikeat pinnit
@@ -129,32 +132,8 @@ void loop()
   }
 ````
 
-### Vaihe 2, Ledin vilkuttaminen
 
 ### Vaihe 3, Ledin kontrollointi selainpohjaisella järjesetelmällä
-
-### Vaihe 4, Valoisuuden mittaaminen phototransistorilla
-
-##  Käyttöohje
-
-### Järjestelmän konfigurointi
-Lataa node_modules
-
-````
- npm install 
-
-````
-Käynnistä projekti paikallisesti portiin 3000
-
-````
- npm start
-
-````
-##Ledin vilkutuksen koodi
-
-
-
-##Ledin vilkutusta webin yli
 
 ````
 
@@ -201,7 +180,7 @@ int ledToggle(String command)
 }
 
 ````
-##TähänSittenJoskusSeHtmlKoodiKunhanSaanSenToimimaan
+#### TähänSittenJoskusSeHtmlKoodi
 
 ````
 
@@ -238,7 +217,9 @@ int ledToggle(String command)
 ````
 
 
-##valosensorinkoodi
+
+
+### Vaihe 4, Valoisuuden mittaaminen phototransistorilla
 
 ````
 
@@ -288,9 +269,38 @@ int ledToggle(String command) {
 
 
 ````
-##JaTämmöinenValonMääräVastausTuli
+####JaTämmöinenValonMääräVastausTuli
 
 ````
 {"cmd":"VarReturn","name":"analogvalue","result":1,"coreInfo":{"last_heard":"2020-11-09T12:27:55.521Z","connected":true,"last_handshake_at":"2020-11-09T12:27:52.705Z","deviceID":"250034001447393035313136","product_id":6}}
 
 ````
+
+
+##  Käyttöohje
+
+### Järjestelmän konfigurointi
+Lataa node_modules
+
+````
+ npm install 
+
+````
+Käynnistä projekti paikallisesti portiin 3000
+
+````
+ npm start
+
+````
+##Ledin vilkutuksen koodi
+
+
+
+##Ledin vilkutusta webin yli
+
+
+
+
+
+##valosensorinkoodi
+
