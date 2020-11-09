@@ -99,6 +99,8 @@ Yht | 31 |
 
 //mitenkähän ne valokuvat lisätiin tänne...?
 
+(SieppausLED.JPG)
+
 
 ### Vaihe 2, Ledin vilkuttaminen
 
