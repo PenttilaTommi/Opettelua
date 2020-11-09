@@ -29,7 +29,7 @@ Numeroitu lista:
 Readme.md -tiedostoon voi laittaa myös kuvia.
 ![Hyvinvointiteknologia](Lakki.jpg) 
 
-![main](SieppausLED.JPG)
+
 
 
 Linkitkin toimii:
@@ -99,16 +99,17 @@ Yht | 31 |
 
 ### Vaihe 1, Ledin kytkentä
 
-//mitenkähän ne valokuvat lisätiin tänne...?
+![main](SieppausLED.JPG)
 
-https://github.com/PenttilaTommi/Opettelua/blob/955c8c848f55d2f441a7450f322a8eb5014eee80/SieppausLED.JPG?raw=true
 
 
 
 ### Vaihe 2, Ledin vilkuttaminen
 
+![main](SieppauLedVilkutus.jpeg)
 
-https://github.com/PenttilaTommi/Opettelua/blob/955c8c848f55d2f441a7450f322a8eb5014eee80/SieppauLedVilkutus.JPG?raw=true
+
+
 
 ````
 
@@ -229,8 +230,9 @@ Sammuta LED:
 
 ### Vaihe 4, Valoisuuden mittaaminen phototransistorilla
 
+![main](SieppausValoanturi.jpeg)
 
-https://github.com/PenttilaTommi/Opettelua/blob/955c8c848f55d2f441a7450f322a8eb5014eee80/SieppausValoanturi.JPG?raw=true
+
 
 ````
 
