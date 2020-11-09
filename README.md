@@ -97,31 +97,6 @@ Yht | 31 |
 
 ### Vaihe 1, Ledin kytkentä
 
-(SieppausLED.jpg)
-
-### Vaihe 2, Ledin vilkuttaminen
-
-### Vaihe 3, Ledin kontrollointi selainpohjaisella järjesetelmällä
-
-### Vaihe 4, Valoisuuden mittaaminen phototransistorilla
-
-##  Käyttöohje
-
-### Järjestelmän konfigurointi
-Lataa node_modules
-
-````
- npm install 
-
-````
-Käynnistä projekti paikallisesti portiin 3000
-
-````
- npm start
-
-````
-##Ledin vilkutuksen koodi
-
 ````
 
 //asetetaan oikeat pinnit
@@ -153,6 +128,31 @@ void loop()
 
   }
 ````
+
+### Vaihe 2, Ledin vilkuttaminen
+
+### Vaihe 3, Ledin kontrollointi selainpohjaisella järjesetelmällä
+
+### Vaihe 4, Valoisuuden mittaaminen phototransistorilla
+
+##  Käyttöohje
+
+### Järjestelmän konfigurointi
+Lataa node_modules
+
+````
+ npm install 
+
+````
+Käynnistä projekti paikallisesti portiin 3000
+
+````
+ npm start
+
+````
+##Ledin vilkutuksen koodi
+
+
 
 ##Ledin vilkutusta webin yli
 
