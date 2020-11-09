@@ -97,6 +97,8 @@ Yht | 31 |
 
 ### Vaihe 1, Ledin kytkentä
 
+//mitenkähän ne valokuvat lisätiin tänne...?
+
 
 ### Vaihe 2, Ledin vilkuttaminen
 
