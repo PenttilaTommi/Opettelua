@@ -99,7 +99,7 @@ Yht | 31 |
 
 //mitenkähän ne valokuvat lisätiin tänne...?
 
-[https://github.com/PenttilaTommi/Opettelua/blob/955c8c848f55d2f441a7450f322a8eb5014eee80/SieppausLED.JPG?raw=true]
+![https://github.com/PenttilaTommi/Opettelua/blob/955c8c848f55d2f441a7450f322a8eb5014eee80/SieppausLED.JPG?raw=true]
 
 
 
