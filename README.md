@@ -97,7 +97,7 @@ Yht | 31 |
 
 ### Vaihe 1, Ledin kytkentä
 
-![kuvat](SieppausLED.jpg)
+(SieppausLED.jpg)
 
 ### Vaihe 2, Ledin vilkuttaminen
 
