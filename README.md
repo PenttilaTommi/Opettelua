@@ -292,15 +292,4 @@ Käynnistä projekti paikallisesti portiin 3000
  npm start
 
 ````
-##Ledin vilkutuksen koodi
-
-
-
-##Ledin vilkutusta webin yli
-
-
-
-
-
-##valosensorinkoodi
 
