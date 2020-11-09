@@ -101,12 +101,16 @@ Yht | 31 |
 
 ![main](SieppausLED.JPG)
 
+![main](SCLed.JPG)
+
 
 
 
 ### Vaihe 2, Ledin vilkuttaminen
 
 ![main](SieppauLedVilkutus.JPG)
+
+![main](SCVilkutus.JPG)
 
 
 
@@ -231,6 +235,8 @@ Sammuta LED:
 ### Vaihe 4, Valoisuuden mittaaminen phototransistorilla
 
 ![main](SieppausValoanturi.JPG)
+
+![main](SCValo.JPG)
 
 
 
