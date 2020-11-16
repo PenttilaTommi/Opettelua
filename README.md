@@ -211,7 +211,7 @@ int ledToggle(String command)
    <form action="https://api.particle.io/v1/devices/PHOTONIN_ID/led?access_token=ACCESS_CODE" method="post"> LED:n kontrollointi web-käyttöliittymällä
 <br />
 <br />
-<input name="arg" type="radio" value="0n" />
+<input name="arg" type="radio" value="on" />
 Sytytä LED.
 <br />
 <input name="arg" type="radio" value="off" />
