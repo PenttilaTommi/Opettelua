@@ -127,7 +127,7 @@ int led2 = D7;
 void setup()
   {
   pinMode(led1, OUTPUT);
-  pinMode(led2, OUTPUT);
+  pinMode(led2, OUTPUT); 
 
   }
 
@@ -295,88 +295,6 @@ int ledToggle(String command) {
 
 ````
 
-### Vaihe 5, Lämpötilan ja Kosteuden mittaaminen
-
-![main] (Lämpötilasensori.JPG)
-
-![main] (LämpötilasensoriPiiri.JPG)
-
-````
-// This #include statement was automatically added by the Particle IDE.
-#include <Adafruit_DHT_Particle.h>
-
-#define DHTPIN D0
-
-#define DHTTYPE DHT11
-
-double temperature;
-
-double humidity;
-
-DHT dht(DHTPIN, DHTTYPE);
-
-// Lisätty oikea kirjasto ja määritelty photonin pinnit.
-
-
-
-void setup() {
-
-  dht.begin();
-
-  Particle.variable("temperature", temperature);
-
-  Particle.variable("humidity", humidity);
-
-}
-
-// Setuppi toiminolle mittaamiseen.
-
-
-
-void loop() {
-
-  float h = dht.getHumidity();
-
-  float t = dht.getTempCelcius();
-
-  float f = dht.getTempFarenheit();
-
-  temperature=t;
-
-  humidity=h;
-
-  if(isnan(h) || isnan(t) || isnan(f)) {
-
-    Serial.println("Failed to read from DHT sensor!");
-
-    return;
-
-  }
-  
-  // Looppi jotta toistaa annettua komentoa.
-
-  float hi = dht.getHeatIndex();
-
-  float dp = dht.getDewPoint();
-
-  if (dp != dp) {
-
-      // get rid of NaN
-
-      dp = 0;
-
-  }
-
-  float k = dht.getTempKelvin();
-
-  Particle.publish("readings", String::format("{\"Hum(\%)\": %4.2f, \"Temp(°C)\": %4.2f, \"DP(°C)\": %4.2f, \"HI(°C)\": %4.2f}", h, t, dp, hi));
-
-  delay(6000);
-
-}
-
-
-````
 
 ##  Käyttöohje
 
