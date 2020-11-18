@@ -93,7 +93,8 @@ päivä | aika | tehtävät
 04.11 | 1h | Ledin kytkentä, Ledin vilkuttaminen
 3.11 | 1h | Ledin kontrollointi selainpohjaisella järjestelmällä
 3.11 | 1h | Valoisuuden mittaaminen photosensorilla
-Yht | 31 | 
+18.11| 4h | Lämpötilan ja kosteuden mittaaminen
+Yht | 35 | 
 
 ## työvaiheet
 
