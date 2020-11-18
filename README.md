@@ -297,9 +297,9 @@ int ledToggle(String command) {
 
 ### Vaihe 5, Lämpötilan ja kosteuden mittaaminen
 
-![main](Lämpoanturi.JPG)
+![main](Lämpösensori.JPG)
 
-![main](LämpöanturiPiiri.JPG)
+![main](LämpösensoriPiiri.JPG)
 
 ````
 // This #include statement was automatically added by the Particle IDE.
