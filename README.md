@@ -379,6 +379,117 @@ void loop() {
 
 ````
 
+### Vaihe6?, Koko asema nipussa.
+
+//kuva
+
+//kuva
+
+````
+// This #include statement was automatically added by the Particle IDE.
+#include <Adafruit_DHT_Particle.h>
+
+#define DHTPIN D0
+
+#define DHTTYPE DHT11
+
+double temperature;
+
+double humidity;
+
+DHT dht(DHTPIN, DHTTYPE);
+
+int led = D6;
+
+int photosensor = A0;
+
+int analogvalue;
+
+int ledToggle(String command);
+
+void setup() {
+
+  dht.begin();
+
+  Particle.variable("temperature", temperature);
+
+  Particle.variable("humidity", humidity);
+  
+  Serial.begin();
+    
+    pinMode(led, OUTPUT);
+    digitalWrite(led, HIGH);
+    
+    Particle.variable("analogvalue", &analogvalue, INT);
+    
+    Particle.function("led", ledToggle);
+
+}
+
+// loop() runs over and over again, as quickly as it can execute.
+
+void loop() {
+
+  float h = dht.getHumidity();
+
+  float t = dht.getTempCelcius();
+
+  float f = dht.getTempFarenheit();
+
+  temperature=t;
+
+  humidity=h;
+
+  if(isnan(h) || isnan(t) || isnan(f)) {
+
+    Serial.println("Failed to read from DHT sensor!");
+
+    return;
+
+  }
+
+  float hi = dht.getHeatIndex();
+
+  float dp = dht.getDewPoint();
+
+  if (dp != dp) {
+
+      // get rid of NaN
+
+      dp = 0;
+
+  }
+
+  float k = dht.getTempKelvin();
+
+  Particle.publish("readings", String::format("{\"Hum(\%)\": %4.2f, \"Temp(°C)\": %4.2f, \"DP(°C)\": %4.2f, \"HI(°C)\": %4.2f}", h, t, dp, hi));
+
+    analogvalue = analogRead(photosensor);
+    
+    Serial.printlnf("%d", analogvalue);
+    
+    
+  delay(6000);
+
+}
+
+int ledToggle(String command) {
+    if (command=="on"){
+        digitalWrite(led,HIGH);
+        return 1;
+    }
+    else if(command=="off") {
+        digitalWrite(led,LOW);
+        return 0;
+    }
+    else {
+        return -1;
+    }
+}
+
+
+````
+
 
 ##  Käyttöohje
 
