@@ -381,9 +381,9 @@ void loop() {
 
 ### Vaihe6?, Koko asema nipussa.
 
-//kuva
+![main](KokoSääAsema.JPG)
 
-//kuva
+![main](AsemaPiiri.JPG)
 
 ````
 // This #include statement was automatically added by the Particle IDE.
