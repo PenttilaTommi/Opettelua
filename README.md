@@ -491,7 +491,7 @@ int ledToggle(String command) {
 ````
 ### vaihe 7(ehkä), WebbiSivunRakentaminen.
 
-####Oma Nettisuvu (eli sen HTLM koodi)
+#### Oma Nettisuvu (eli sen HTLM koodi)
 
 ````
 <!DOCTYPE html>
@@ -587,6 +587,13 @@ int ledToggle(String command) {
   </footer>
   </body>
 </html>
+
+````
+
+#### Sääaseman nettisivu (eli sen HTLM koodi)
+
+````
+
 
 ````
 
