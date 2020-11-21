@@ -379,7 +379,7 @@ void loop() {
 
 ````
 
-### Vaihe6?, Koko asema nipussa.
+### Vaihe6?( vai meneekö nämä vielä tuon viitosen alle?), Koko asema nipussa.
 
 ![main](KokoSääAsema.JPG)
 
@@ -489,7 +489,106 @@ int ledToggle(String command) {
 
 
 ````
+### vaihe 7(ehkä), WebbiSivunRakentaminen.
 
+####Oma Nettisuvu (eli sen HTLM koodi)
+
+````
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Mun Blogi</title>
+    <meta name="descriptition" content="awesome blog by mää">
+    <meta name="keywords" content="web suunnitteua, web dev ext">
+    <style type="text/css">
+    
+      #main-header{ 
+        text-align:center;
+        backraound-colour:black;
+        colour:white;
+        padding:10px;
+
+      }
+
+      #main-footer{
+        text-align:canter;
+        font-size:18px;
+
+      }
+
+    </style>
+    
+  </head>
+  <body>
+    <header id="main=header">
+      <h1>Mun nettisaitti</h1>
+    </header>
+
+    <a href="file:///C:/Users/K%C3%A4ytt%C3%A4j%C3%A4/OneDrive%20-%20Koulutuskeskus%20Salpaus/Koodauksia/Blogi.html/indexi2.html">go to index</a>
+
+    <section>   
+      <article class="post">
+        <h3>Bio</h3>
+        <small>Posted by Tommi on Nov 19</small>
+        <p>Hei! Olen 47v Ensihoitaja Orimattilasta. Työskentelen Keski-Uudenmaan pelastuslaitoksella Kerava-Tuusula paloasemalla. Olen väsynyt työhoni ja haluan nukkua yöni</p>
+        <a href="post.html"></a>
+
+        
+        </p>
+      </article>
+        <a href="kuvA.jpeg">
+          <img src="kuvA.jpeg" alt="my sample images" width="400">
+
+        </a>
+      <article class="post">
+        <h3>Harrastukset</h3>
+        <small>Posted by Tommi on Nov 19</small>
+        <p>Olen innokas kalastaja ja vuosien tahkomisen jälkeen sekin into palkittiin tänä syksynä. Joukkueemme voitti Järvilohikalojen vetouistenut Suomen mestaruuden 2020!</p>
+
+        <!--tänä alle voisi laittaa linkin tuloksiin-->
+
+        <a href="http://www.vetouistelu.com/JL2020-2/Paijanne-2020-2-lopputulokset.pdf">Lue Lisää</a> 
+
+        <br>
+
+        <a href="Lohi.jpg">
+          <img src="Lohi.jpg" alt="my sample images" width="400">
+
+        </a>
+
+        
+        </p>
+        <article class="post">
+        <h3>Opiskelu</h3>
+        <small>Posted by Tommi on Nov 19</small>
+        <p>Koska olen hieman väsynyt työhöni, olen siis lähtenyt opiskelemaan ITC alaa. Ensimmäisinä töinä on rakentaa Sääasema Particlen Photon- Iot alustalle ja tuottaa sille oma webbisivu josta sen mittauksia pääsee tutkimaan netistä. alla linkki sääaseman sivulle.  </p>
+        <a href="post.html">Lue Lisää</a>
+        
+        </p>
+      </article>
+      </article>
+    </section>
+
+  
+  <footer id="main-footer">
+    <p>Copyright &copy; 2019 Mun Nettisaitti </p>
+
+    <form action="prosess.php" method="POST">
+       <br>
+      <div>  
+        <label>Ota halutessasi yhteyttä</label>
+        <textarea name="Viesti"></textarea>
+      <div>  
+       <br>
+       <input type="submit" name="submit" value="lähetä">
+    </form>
+
+  </footer>
+  </body>
+</html>
+
+````
 
 ##  Käyttöohje
 
