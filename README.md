@@ -593,8 +593,73 @@ int ledToggle(String command) {
 
 #### Sääaseman nettisivu (eli sen HTLM koodi)
 
-````
+Ja perässä sääaseman HTML. nythän on niin että ne linkittyy toisiinsa kyllä tässä omalla koneella kun ei ne oo missään muualla verkossa. Ehkä joskus opin miten ne laitettan linkittyy verkossa. :)
 
+
+
+````
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<script src="script.js">
+	</script>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Mun Blogi</title>
+    <meta name="descriptition" content="awesome blog by mää">
+    <meta name="keywords" content="web suunnitteua, web dev ext">
+    <style type="text/css">
+    
+      #main-header{ 
+        text-align:center;
+        backraound-colour:black;
+        colour:white;
+        padding:10px;
+
+      }
+
+      #main-footer{
+        text-align:canter;
+        font-size:18px;
+
+      }
+
+    </style>
+    
+  </head>
+  <body>
+    <header id="main=header">
+      <h1>Tommin sääasema</h1>
+    </header>
+
+    <a href="file:///C:/Users/K%C3%A4ytt%C3%A4j%C3%A4/OneDrive%20-%20Koulutuskeskus%20Salpaus/Koodauksia/Blogi.html/indexi2.html">palaa kotisuvulle</a>
+
+    <br>
+    <br>
+    
+ <center>
+  <TABLE BORDER=3>
+    
+      <CAPTION VALIGN=TOP  ALIGN=CENTER>Tommin sääasema </CAPTION>
+      <TR><TH> Lämpötila </TH><TH> Kosteus % </TH><TH> Valoisuus </TH>
+      <TR><TD> Arvo °C </TD><TD> Arvo % </TD><TD> Arvo lux? </TD>
+  </TABLE>
+
+  </center>
 
 ````
 
