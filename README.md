@@ -94,7 +94,8 @@ päivä | aika | tehtävät
 3.11 | 1h | Ledin kontrollointi selainpohjaisella järjestelmällä
 3.11 | 1h | Valoisuuden mittaaminen photosensorilla
 18.11| 4h | Lämpötilan ja kosteuden mittaaminen
-Yht | 35 | 
+19.11 | 2h |HTML opettelua
+Yht | 37 | 
 
 ## työvaiheet
 
