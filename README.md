@@ -598,6 +598,7 @@ Ja perässä sääaseman HTML. nythän on niin että ne linkittyy toisiinsa kyll
 
 
 ````
+
 <!DOCTYPE html>
 <html>
 
@@ -652,15 +653,14 @@ Ja perässä sääaseman HTML. nythän on niin että ne linkittyy toisiinsa kyll
     <br>
     
  <center>
-  <TABLE BORDER=3>
+  <TABLE BORDER=16 sumary="kaksi riviä ja kolme saraketta"> 
     
       <CAPTION VALIGN=TOP  ALIGN=CENTER>Tommin sääasema </CAPTION>
-      <TR><TH> Lämpötila </TH><TH> Kosteus % </TH><TH> Valoisuus </TH>
+      <TR colspan="30"><TH> Lämpötila </TH><TH> Kosteus % </TH><TH> Valoisuus </TH>
       <TR><TD> Arvo °C </TD><TD> Arvo % </TD><TD> Arvo lux? </TD>
   </TABLE>
 
   </center>
-
 ````
 
 ##  Käyttöohje
